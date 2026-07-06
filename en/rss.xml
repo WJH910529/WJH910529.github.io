@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://WJH910529.github.io/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://WJH910529.github.io/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>WJH Blog</title>
+    <link>https://WJH910529.github.io/en/</link>
+    <description>Notes, projects, and learning records.</description>
+    <language>en-US</language>
+    <pubDate>Mon, 06 Jul 2026 17:31:32 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:31:32 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Notes</category>
+    <item>
+      <title>First English Note</title>
+      <link>https://WJH910529.github.io/en/notes/first-note/</link>
+      <guid>https://WJH910529.github.io/en/notes/first-note/</guid>
+      <source url="https://WJH910529.github.io/en/rss.xml">First English Note</source>
+      <description>First English Note This is a sample English note. You can copy this folder when you want to create a new post. Markdown Example Write headings with # Write lists with - Put code...</description>
+      <category>Notes</category>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>This is a sample English note. You can copy this folder when you want to create a new post.</p>
+<h2>Markdown Example</h2>
+<ul>
+<li>Write headings with <code>#</code></li>
+<li>Write lists with <code>-</code></li>
+<li>Put code inside fenced code blocks</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

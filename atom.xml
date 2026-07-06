@@ -3,7 +3,7 @@
   <id>https://WJH910529.github.io/</id>
   <title>WJH Blog</title>
   <subtitle>Notes, projects, and learning records.</subtitle>
-  <updated>2026-07-06T17:09:22.583Z</updated>
+  <updated>2026-07-06T17:31:32.285Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://WJH910529.github.io/atom.xml"/>
   <link rel="alternate" href="https://WJH910529.github.io/"/>
@@ -14,7 +14,7 @@
     <title type="text">建立 WJH Blog</title>
     <id>https://WJH910529.github.io/learning-log/2026-07-06-start/</id>
     <link href="https://WJH910529.github.io/learning-log/2026-07-06-start/"/>
-    <updated>2026-07-06T17:09:22.586Z</updated>
+    <updated>2026-07-06T17:31:32.288Z</updated>
     <summary type="html"><![CDATA[
 <p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
 <h2>做了什麼</h2>
@@ -55,7 +55,7 @@
     <title type="text">第一篇筆記</title>
     <id>https://WJH910529.github.io/notes/first-note/</id>
     <link href="https://WJH910529.github.io/notes/first-note/"/>
-    <updated>2026-07-06T17:09:22.594Z</updated>
+    <updated>2026-07-06T17:31:32.294Z</updated>
     <summary type="html"><![CDATA[
 <p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
 <h2>建議寫法</h2>
@@ -76,7 +76,7 @@
     <title type="text">Markdown 範例</title>
     <id>https://WJH910529.github.io/notes/markdown-demo/</id>
     <link href="https://WJH910529.github.io/notes/markdown-demo/"/>
-    <updated>2026-07-06T17:09:22.603Z</updated>
+    <updated>2026-07-06T17:31:32.303Z</updated>
     <summary type="html"><![CDATA[
 <p>這篇示範一些常用 Markdown 寫法。</p>
 <h2>清單</h2>
@@ -122,7 +122,7 @@
     <title type="text">WJH Blog</title>
     <id>https://WJH910529.github.io/projects/wjh-blog/</id>
     <link href="https://WJH910529.github.io/projects/wjh-blog/"/>
-    <updated>2026-07-06T17:09:22.608Z</updated>
+    <updated>2026-07-06T17:31:32.310Z</updated>
     <summary type="html"><![CDATA[
 <p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
 <h2>技術</h2>

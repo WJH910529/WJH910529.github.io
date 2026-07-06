@@ -1,0 +1,21 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "WJH Blog",
+  "home_page_url": "https://WJH910529.github.io/en/",
+  "feed_url": "https://WJH910529.github.io/en/feed.json",
+  "description": "Notes, projects, and learning records.",
+  "items": [
+    {
+      "title": "First English Note",
+      "url": "https://WJH910529.github.io/en/notes/first-note/",
+      "id": "https://WJH910529.github.io/en/notes/first-note/",
+      "summary": "First English Note This is a sample English note. You can copy this folder when you want to create a new post. Markdown Example Write headings with # Write lists with - Put code...",
+      "content_html": "\n<p>This is a sample English note. You can copy this folder when you want to create a new post.</p>\n<h2>Markdown Example</h2>\n<ul>\n<li>Write headings with <code>#</code></li>\n<li>Write lists with <code>-</code></li>\n<li>Put code inside fenced code blocks</li>\n</ul>\n",
+      "date_published": "2026-07-07T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Notes"
+      ]
+    }
+  ]
+}

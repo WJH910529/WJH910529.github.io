@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://WJH910529.github.io/en/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://WJH910529.github.io/en/</id>
+  <title>WJH Blog</title>
+  <subtitle>Notes, projects, and learning records.</subtitle>
+  <updated>2026-07-06T17:31:32.286Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://WJH910529.github.io/en/atom.xml"/>
+  <link rel="alternate" href="https://WJH910529.github.io/en/"/>
+  <category term="Notes"/>
+  <entry>
+    <title type="text">First English Note</title>
+    <id>https://WJH910529.github.io/en/notes/first-note/</id>
+    <link href="https://WJH910529.github.io/en/notes/first-note/"/>
+    <updated>2026-07-06T17:31:32.329Z</updated>
+    <summary type="html"><![CDATA[
+<p>This is a sample English note. You can copy this folder when you want to create a new post.</p>
+<h2>Markdown Example</h2>
+<ul>
+<li>Write headings with <code>#</code></li>
+<li>Write lists with <code>-</code></li>
+<li>Put code inside fenced code blocks</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>This is a sample English note. You can copy this folder when you want to create a new post.</p>
+<h2>Markdown Example</h2>
+<ul>
+<li>Write headings with <code>#</code></li>
+<li>Write lists with <code>-</code></li>
+<li>Put code inside fenced code blocks</li>
+</ul>
+]]></content>
+    <category term="Notes"/>
+    <published>2026-07-07T00:00:00.000Z</published>
+  </entry>
+</feed>
