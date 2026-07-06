@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://WJH910529.github.io/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://WJH910529.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>WJH Blog</title>
+    <link>https://WJH910529.github.io/</link>
+    <description>Notes, projects, and learning records.</description>
+    <language>zh-TW</language>
+    <pubDate>Mon, 06 Jul 2026 17:05:10 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:05:10 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Notes</category>
+    <category>Learning Log</category>
+    <category>Projects</category>
+    <item>
+      <title>Markdown 範例</title>
+      <link>https://WJH910529.github.io/notes/markdown-demo/</link>
+      <guid>https://WJH910529.github.io/notes/markdown-demo/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">Markdown 範例</source>
+      <description>Markdown 範例 這篇示範一些常用 Markdown 寫法。 清單 重點一 重點二 重點三 程式碼 引用 把學習過程記錄下來，之後回頭看會很有用。 連結 VuePress Theme Hope</description>
+      <category>Notes</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>這篇示範一些常用 Markdown 寫法。</p>
+<h2>清單</h2>
+<ul>
+<li>重點一</li>
+<li>重點二</li>
+<li>重點三</li>
+</ul>
+<h2>程式碼</h2>
+<div class="language-c line-numbers-mode" data-highlighter="shiki" data-ext="c" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-c"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &#x3C;stdio.h></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  printf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"Hello, WJH Blog!</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">  return</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>引用</h2>
+<blockquote>
+<p>把學習過程記錄下來，之後回頭看會很有用。</p>
+</blockquote>
+<h2>連結</h2>
+<p><a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第一篇筆記</title>
+      <link>https://WJH910529.github.io/notes/first-note/</link>
+      <guid>https://WJH910529.github.io/notes/first-note/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">第一篇筆記</source>
+      <description>第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解</description>
+      <category>Notes</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>建立 WJH Blog</title>
+      <link>https://WJH910529.github.io/learning-log/2026-07-06-start/</link>
+      <guid>https://WJH910529.github.io/learning-log/2026-07-06-start/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">建立 WJH Blog</source>
+      <description>建立 WJH Blog 今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。 做了什麼 建立本機 VuePress 專案 安裝依賴 成功建置靜態網站 保留幾篇範例文章 之後可以做什麼 改首頁文字 換自己的頭像或背景圖 建立 GitHub Pages repository 把網站部署到 https://...</description>
+      <category>Learning Log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
+<h2>做了什麼</h2>
+<ul>
+<li>建立本機 VuePress 專案</li>
+<li>安裝依賴</li>
+<li>成功建置靜態網站</li>
+<li>保留幾篇範例文章</li>
+</ul>
+<h2>之後可以做什麼</h2>
+<ul>
+<li>改首頁文字</li>
+<li>換自己的頭像或背景圖</li>
+<li>建立 GitHub Pages repository</li>
+<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WJH Blog</title>
+      <link>https://WJH910529.github.io/projects/wjh-blog/</link>
+      <guid>https://WJH910529.github.io/projects/wjh-blog/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">WJH Blog</source>
+      <description>WJH Blog 這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。 技術 VuePress vuepress-theme-hope GitHub Pages 目前狀態 本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。</description>
+      <category>Projects</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
+<h2>技術</h2>
+<ul>
+<li>VuePress</li>
+<li>vuepress-theme-hope</li>
+<li>GitHub Pages</li>
+</ul>
+<h2>目前狀態</h2>
+<p>本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

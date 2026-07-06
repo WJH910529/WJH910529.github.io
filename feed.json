@@ -1,0 +1,57 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "WJH Blog",
+  "home_page_url": "https://WJH910529.github.io/",
+  "feed_url": "https://WJH910529.github.io/feed.json",
+  "description": "Notes, projects, and learning records.",
+  "items": [
+    {
+      "title": "Markdown 範例",
+      "url": "https://WJH910529.github.io/notes/markdown-demo/",
+      "id": "https://WJH910529.github.io/notes/markdown-demo/",
+      "summary": "Markdown 範例 這篇示範一些常用 Markdown 寫法。 清單 重點一 重點二 重點三 程式碼 引用 把學習過程記錄下來，之後回頭看會很有用。 連結 VuePress Theme Hope",
+      "content_html": "\n<p>這篇示範一些常用 Markdown 寫法。</p>\n<h2>清單</h2>\n<ul>\n<li>重點一</li>\n<li>重點二</li>\n<li>重點三</li>\n</ul>\n<h2>程式碼</h2>\n<div class=\"language-c line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"c\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-c\"><span class=\"line\"><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">#include</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> &#x3C;stdio.h></span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">int</span><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\"> main</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">(</span><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">void</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">) {</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">  printf</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">(</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"Hello, WJH Blog!</span><span style=\"--shiki-light:#0184BC;--shiki-dark:#56B6C2\">\\n</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">);</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">  return</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> 0</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">}</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2>引用</h2>\n<blockquote>\n<p>把學習過程記錄下來，之後回頭看會很有用。</p>\n</blockquote>\n<h2>連結</h2>\n<p><a href=\"https://theme-hope.vuejs.press/\" target=\"_blank\" rel=\"noopener noreferrer\">VuePress Theme Hope</a></p>\n",
+      "date_published": "2026-07-06T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Notes"
+      ]
+    },
+    {
+      "title": "第一篇筆記",
+      "url": "https://WJH910529.github.io/notes/first-note/",
+      "id": "https://WJH910529.github.io/notes/first-note/",
+      "summary": "第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解",
+      "content_html": "\n<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>\n<h2>建議寫法</h2>\n<p>每篇文章可以放在自己的資料夾裡：</p>\n<div class=\"language-text line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"text\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-text\"><span class=\"line\"><span>src/notes/my-new-note/README.md</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div></div></div><p>文章最上面的 `</p>\n",
+      "date_published": "2026-07-06T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Notes"
+      ]
+    },
+    {
+      "title": "建立 WJH Blog",
+      "url": "https://WJH910529.github.io/learning-log/2026-07-06-start/",
+      "id": "https://WJH910529.github.io/learning-log/2026-07-06-start/",
+      "summary": "建立 WJH Blog 今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。 做了什麼 建立本機 VuePress 專案 安裝依賴 成功建置靜態網站 保留幾篇範例文章 之後可以做什麼 改首頁文字 換自己的頭像或背景圖 建立 GitHub Pages repository 把網站部署到 https://...",
+      "content_html": "\n<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>\n<h2>做了什麼</h2>\n<ul>\n<li>建立本機 VuePress 專案</li>\n<li>安裝依賴</li>\n<li>成功建置靜態網站</li>\n<li>保留幾篇範例文章</li>\n</ul>\n<h2>之後可以做什麼</h2>\n<ul>\n<li>改首頁文字</li>\n<li>換自己的頭像或背景圖</li>\n<li>建立 GitHub Pages repository</li>\n<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>\n</ul>\n",
+      "date_published": "2026-07-06T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Learning Log"
+      ]
+    },
+    {
+      "title": "WJH Blog",
+      "url": "https://WJH910529.github.io/projects/wjh-blog/",
+      "id": "https://WJH910529.github.io/projects/wjh-blog/",
+      "summary": "WJH Blog 這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。 技術 VuePress vuepress-theme-hope GitHub Pages 目前狀態 本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。",
+      "content_html": "\n<p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>\n<h2>技術</h2>\n<ul>\n<li>VuePress</li>\n<li>vuepress-theme-hope</li>\n<li>GitHub Pages</li>\n</ul>\n<h2>目前狀態</h2>\n<p>本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。</p>\n",
+      "date_published": "2026-07-06T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Projects"
+      ]
+    }
+  ]
+}

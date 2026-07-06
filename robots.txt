@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://WJH910529.github.io/sitemap.xml

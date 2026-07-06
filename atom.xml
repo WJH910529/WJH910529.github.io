@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://WJH910529.github.io/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+  <id>https://WJH910529.github.io/</id>
+  <title>WJH Blog</title>
+  <subtitle>Notes, projects, and learning records.</subtitle>
+  <updated>2026-07-06T17:05:10.029Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://WJH910529.github.io/atom.xml"/>
+  <link rel="alternate" href="https://WJH910529.github.io/"/>
+  <category term="Notes"/>
+  <category term="Learning Log"/>
+  <category term="Projects"/>
+  <entry>
+    <title type="text">Markdown 範例</title>
+    <id>https://WJH910529.github.io/notes/markdown-demo/</id>
+    <link href="https://WJH910529.github.io/notes/markdown-demo/"/>
+    <updated>2026-07-06T17:05:10.033Z</updated>
+    <summary type="html"><![CDATA[
+<p>這篇示範一些常用 Markdown 寫法。</p>
+<h2>清單</h2>
+<ul>
+<li>重點一</li>
+<li>重點二</li>
+<li>重點三</li>
+</ul>
+<h2>程式碼</h2>
+<div class="language-c line-numbers-mode" data-highlighter="shiki" data-ext="c" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-c"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &#x3C;stdio.h></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  printf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"Hello, WJH Blog!</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">  return</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[
+<p>這篇示範一些常用 Markdown 寫法。</p>
+<h2>清單</h2>
+<ul>
+<li>重點一</li>
+<li>重點二</li>
+<li>重點三</li>
+</ul>
+<h2>程式碼</h2>
+<div class="language-c line-numbers-mode" data-highlighter="shiki" data-ext="c" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-c"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &#x3C;stdio.h></span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  printf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"Hello, WJH Blog!</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">  return</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>引用</h2>
+<blockquote>
+<p>把學習過程記錄下來，之後回頭看會很有用。</p>
+</blockquote>
+<h2>連結</h2>
+<p><a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a></p>
+]]></content>
+    <category term="Notes"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">第一篇筆記</title>
+    <id>https://WJH910529.github.io/notes/first-note/</id>
+    <link href="https://WJH910529.github.io/notes/first-note/"/>
+    <updated>2026-07-06T17:05:10.046Z</updated>
+    <summary type="html"><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
+]]></content>
+    <category term="Notes"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">建立 WJH Blog</title>
+    <id>https://WJH910529.github.io/learning-log/2026-07-06-start/</id>
+    <link href="https://WJH910529.github.io/learning-log/2026-07-06-start/"/>
+    <updated>2026-07-06T17:05:10.054Z</updated>
+    <summary type="html"><![CDATA[
+<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
+<h2>做了什麼</h2>
+<ul>
+<li>建立本機 VuePress 專案</li>
+<li>安裝依賴</li>
+<li>成功建置靜態網站</li>
+<li>保留幾篇範例文章</li>
+</ul>
+<h2>之後可以做什麼</h2>
+<ul>
+<li>改首頁文字</li>
+<li>換自己的頭像或背景圖</li>
+<li>建立 GitHub Pages repository</li>
+<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
+<h2>做了什麼</h2>
+<ul>
+<li>建立本機 VuePress 專案</li>
+<li>安裝依賴</li>
+<li>成功建置靜態網站</li>
+<li>保留幾篇範例文章</li>
+</ul>
+<h2>之後可以做什麼</h2>
+<ul>
+<li>改首頁文字</li>
+<li>換自己的頭像或背景圖</li>
+<li>建立 GitHub Pages repository</li>
+<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>
+</ul>
+]]></content>
+    <category term="Learning Log"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">WJH Blog</title>
+    <id>https://WJH910529.github.io/projects/wjh-blog/</id>
+    <link href="https://WJH910529.github.io/projects/wjh-blog/"/>
+    <updated>2026-07-06T17:05:10.058Z</updated>
+    <summary type="html"><![CDATA[
+<p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
+<h2>技術</h2>
+<ul>
+<li>VuePress</li>
+<li>vuepress-theme-hope</li>
+<li>GitHub Pages</li>
+</ul>
+<h2>目前狀態</h2>
+<p>本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
+<h2>技術</h2>
+<ul>
+<li>VuePress</li>
+<li>vuepress-theme-hope</li>
+<li>GitHub Pages</li>
+</ul>
+<h2>目前狀態</h2>
+<p>本機已經可以預覽和建置。下一步是建立自己的 GitHub Pages repo 並部署。</p>
+]]></content>
+    <category term="Projects"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+  </entry>
+</feed>
