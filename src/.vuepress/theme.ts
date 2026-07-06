@@ -14,7 +14,7 @@ export default hopeTheme({
     url: "https://WJH910529.github.io",
   },
 
-  repo: "",
+  repo: "WJH910529/WJH910529.github.io",
   repoDisplay: false,
   docsDir: "src",
   displayFooter: true,
