@@ -11,7 +11,7 @@
     "dev:vite-clean": "vuepress-vite dev src --clean-cache",
     "dev:webpack": "vuepress-webpack dev src",
     "dev:webpack-clean": "vuepress-webpack dev src --clean-cache",
-    "deploy": "pnpm run build:vite && gh-pages -d ./src/.vuepress/dist --nojekyll -r git@github.com:WJH910529/WJH910529.github.io.git"
+    "deploy": "corepack pnpm run build:vite && gh-pages -d ./src/.vuepress/dist --nojekyll -r git@github.com:WJH910529/WJH910529.github.io.git"
   },
   "dependencies": {
     "@mathjax/src": "4.1.2",

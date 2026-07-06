@@ -165,7 +165,7 @@ base: "/wjh-blog/",
 `package.json` currently uses a placeholder:
 
 ```json
-"deploy": "pnpm run build:vite && gh-pages -d ./src/.vuepress/dist --nojekyll -r git@github.com:WJH910529/WJH910529.github.io.git"
+"deploy": "corepack pnpm run build:vite && gh-pages -d ./src/.vuepress/dist --nojekyll -r git@github.com:WJH910529/WJH910529.github.io.git"
 ```
 
 The deploy script now points to your `WJH910529.github.io` repository.
