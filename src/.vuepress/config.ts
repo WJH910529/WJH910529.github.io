@@ -11,6 +11,11 @@ export default defineUserConfig({
       title: "WJH Blog",
       description: "Notes, projects, and learning records.",
     },
+    "/en/": {
+      lang: "en-US",
+      title: "WJH Blog",
+      description: "Notes, projects, and learning records.",
+    },
   },
 
   theme,

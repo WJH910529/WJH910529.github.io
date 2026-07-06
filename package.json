@@ -23,6 +23,7 @@
     "@vuepress/plugin-feed": "2.0.0-rc.130",
     "@vuepress/plugin-pwa": "2.0.0-rc.130",
     "@vuepress/plugin-revealjs": "2.0.0-rc.130",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.130",
     "@waline/client": "3.13.0",
     "flowchart.ts": "3.0.1",
     "gh-pages": "^6.3.0",
