@@ -6,13 +6,55 @@
     <link>https://WJH910529.github.io/</link>
     <description>Notes, projects, and learning records.</description>
     <language>zh-TW</language>
-    <pubDate>Mon, 06 Jul 2026 17:05:10 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2026 17:05:10 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2026 17:09:22 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:09:22 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Notes</category>
     <category>Learning Log</category>
+    <category>Notes</category>
     <category>Projects</category>
+    <item>
+      <title>建立 WJH Blog</title>
+      <link>https://WJH910529.github.io/learning-log/2026-07-06-start/</link>
+      <guid>https://WJH910529.github.io/learning-log/2026-07-06-start/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">建立 WJH Blog</source>
+      <description>建立 WJH Blog 今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。 做了什麼 建立本機 VuePress 專案 安裝依賴 成功建置靜態網站 保留幾篇範例文章 之後可以做什麼 改首頁文字 換自己的頭像或背景圖 建立 GitHub Pages repository 把網站部署到 https://...</description>
+      <category>Learning Log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
+<h2>做了什麼</h2>
+<ul>
+<li>建立本機 VuePress 專案</li>
+<li>安裝依賴</li>
+<li>成功建置靜態網站</li>
+<li>保留幾篇範例文章</li>
+</ul>
+<h2>之後可以做什麼</h2>
+<ul>
+<li>改首頁文字</li>
+<li>換自己的頭像或背景圖</li>
+<li>建立 GitHub Pages repository</li>
+<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第一篇筆記</title>
+      <link>https://WJH910529.github.io/notes/first-note/</link>
+      <guid>https://WJH910529.github.io/notes/first-note/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">第一篇筆記</source>
+      <description>第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解</description>
+      <category>Notes</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Markdown 範例</title>
       <link>https://WJH910529.github.io/notes/markdown-demo/</link>
@@ -42,48 +84,6 @@
 </blockquote>
 <h2>連結</h2>
 <p><a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>第一篇筆記</title>
-      <link>https://WJH910529.github.io/notes/first-note/</link>
-      <guid>https://WJH910529.github.io/notes/first-note/</guid>
-      <source url="https://WJH910529.github.io/rss.xml">第一篇筆記</source>
-      <description>第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解</description>
-      <category>Notes</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
-<h2>建議寫法</h2>
-<p>每篇文章可以放在自己的資料夾裡：</p>
-<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>建立 WJH Blog</title>
-      <link>https://WJH910529.github.io/learning-log/2026-07-06-start/</link>
-      <guid>https://WJH910529.github.io/learning-log/2026-07-06-start/</guid>
-      <source url="https://WJH910529.github.io/rss.xml">建立 WJH Blog</source>
-      <description>建立 WJH Blog 今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。 做了什麼 建立本機 VuePress 專案 安裝依賴 成功建置靜態網站 保留幾篇範例文章 之後可以做什麼 改首頁文字 換自己的頭像或背景圖 建立 GitHub Pages repository 把網站部署到 https://...</description>
-      <category>Learning Log</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
-<h2>做了什麼</h2>
-<ul>
-<li>建立本機 VuePress 專案</li>
-<li>安裝依賴</li>
-<li>成功建置靜態網站</li>
-<li>保留幾篇範例文章</li>
-</ul>
-<h2>之後可以做什麼</h2>
-<ul>
-<li>改首頁文字</li>
-<li>換自己的頭像或背景圖</li>
-<li>建立 GitHub Pages repository</li>
-<li>把網站部署到 <code>https://WJH910529.github.io/</code></li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
