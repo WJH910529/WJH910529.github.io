@@ -3,7 +3,7 @@
   <id>https://WJH910529.github.io/en/</id>
   <title>WJH Blog</title>
   <subtitle>Notes, projects, and learning records.</subtitle>
-  <updated>2026-07-07T16:50:50.501Z</updated>
+  <updated>2026-07-07T17:06:35.227Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://WJH910529.github.io/en/atom.xml"/>
   <link rel="alternate" href="https://WJH910529.github.io/en/"/>
@@ -12,7 +12,7 @@
     <title type="text">First English Note</title>
     <id>https://WJH910529.github.io/en/notes/first-note/</id>
     <link href="https://WJH910529.github.io/en/notes/first-note/"/>
-    <updated>2026-07-07T16:50:50.677Z</updated>
+    <updated>2026-07-07T17:06:35.301Z</updated>
     <summary type="html"><![CDATA[
 <p>This is a sample English note. You can copy this folder when you want to create a new post.</p>
 <h2>Markdown Example</h2>

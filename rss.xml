@@ -6,8 +6,8 @@
     <link>https://WJH910529.github.io/</link>
     <description>Notes, projects, and learning records.</description>
     <language>zh-TW</language>
-    <pubDate>Tue, 07 Jul 2026 16:50:50 GMT</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2026 16:50:50 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2026 17:06:35 GMT</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 17:06:35 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Notes</category>
@@ -64,13 +64,6 @@
 </ul>
 <h3>書籍與翻譯</h3>
 <ul>
-<li>
-<p><a href="https://app.notion.com/p/xv6-a-simple-Unix-like-teaching-operating-system-30d6b43b837a80fea9dfe66baca52101?pvs=21" target="_blank" rel="noopener noreferrer">xv6: a simple, Unix-like teaching operating system</a></p>
-<ul>
-<li>xv6 book 相關的閱讀資料或整理頁。</li>
-<li>可以當作閱讀 xv6 book 時的輔助索引。</li>
-</ul>
-</li>
 <li>
 <p><a href="https://th0ar.gitbooks.io/xv6-chinese/content/index.html" target="_blank" rel="noopener noreferrer">xv6 中文文檔</a></p>
 <ul>
@@ -164,22 +157,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>第一篇筆記</title>
-      <link>https://WJH910529.github.io/notes/first-note/</link>
-      <guid>https://WJH910529.github.io/notes/first-note/</guid>
-      <source url="https://WJH910529.github.io/rss.xml">第一篇筆記</source>
-      <description>第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解</description>
-      <category>Notes</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
-<h2>建議寫法</h2>
-<p>每篇文章可以放在自己的資料夾裡：</p>
-<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Markdown 範例</title>
       <link>https://WJH910529.github.io/notes/markdown-demo/</link>
       <guid>https://WJH910529.github.io/notes/markdown-demo/</guid>
@@ -208,6 +185,22 @@
 </blockquote>
 <h2>連結</h2>
 <p><a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第一篇筆記</title>
+      <link>https://WJH910529.github.io/notes/first-note/</link>
+      <guid>https://WJH910529.github.io/notes/first-note/</guid>
+      <source url="https://WJH910529.github.io/rss.xml">第一篇筆記</source>
+      <description>第一篇筆記 這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。 建議寫法 每篇文章可以放在自己的資料夾裡： 文章最上面的 --- 區塊叫做 frontmatter，可以設定標題、日期、分類和標籤。 下一步 你可以把這篇改成你自己的第一篇文章，例如： 今天學到的東西 某個作業或專案的紀錄 某段程式碼的理解</description>
+      <category>Notes</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
 ]]></content:encoded>
     </item>
     <item>

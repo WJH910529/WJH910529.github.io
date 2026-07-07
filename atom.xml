@@ -3,7 +3,7 @@
   <id>https://WJH910529.github.io/</id>
   <title>WJH Blog</title>
   <subtitle>Notes, projects, and learning records.</subtitle>
-  <updated>2026-07-07T16:50:50.501Z</updated>
+  <updated>2026-07-07T17:06:35.227Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://WJH910529.github.io/atom.xml"/>
   <link rel="alternate" href="https://WJH910529.github.io/"/>
@@ -14,7 +14,7 @@
     <title type="text">00. 開始學習 xv6-riscv</title>
     <id>https://WJH910529.github.io/notes/xv6-riscv/00-introduction/</id>
     <link href="https://WJH910529.github.io/notes/xv6-riscv/00-introduction/"/>
-    <updated>2026-07-07T16:50:50.507Z</updated>
+    <updated>2026-07-07T17:06:35.232Z</updated>
     <summary type="html"><![CDATA[
 <p>這篇是 xv6-riscv 學習系列的起點。</p>
 <p>我想透過 xv6-riscv 重新整理作業系統的基礎觀念，並把閱讀原始碼、完成 lab、遇到的問題與解法記錄下來。</p>
@@ -71,13 +71,6 @@
 </ul>
 <h3>書籍與翻譯</h3>
 <ul>
-<li>
-<p><a href="https://app.notion.com/p/xv6-a-simple-Unix-like-teaching-operating-system-30d6b43b837a80fea9dfe66baca52101?pvs=21" target="_blank" rel="noopener noreferrer">xv6: a simple, Unix-like teaching operating system</a></p>
-<ul>
-<li>xv6 book 相關的閱讀資料或整理頁。</li>
-<li>可以當作閱讀 xv6 book 時的輔助索引。</li>
-</ul>
-</li>
 <li>
 <p><a href="https://th0ar.gitbooks.io/xv6-chinese/content/index.html" target="_blank" rel="noopener noreferrer">xv6 中文文檔</a></p>
 <ul>
@@ -150,7 +143,7 @@
     <title type="text">建立 WJH Blog</title>
     <id>https://WJH910529.github.io/learning-log/2026-07-06-start/</id>
     <link href="https://WJH910529.github.io/learning-log/2026-07-06-start/"/>
-    <updated>2026-07-07T16:50:50.525Z</updated>
+    <updated>2026-07-07T17:06:35.246Z</updated>
     <summary type="html"><![CDATA[
 <p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
 <h2>做了什麼</h2>
@@ -188,31 +181,10 @@
     <published>2026-07-06T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">第一篇筆記</title>
-    <id>https://WJH910529.github.io/notes/first-note/</id>
-    <link href="https://WJH910529.github.io/notes/first-note/"/>
-    <updated>2026-07-07T16:50:50.530Z</updated>
-    <summary type="html"><![CDATA[
-<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
-<h2>建議寫法</h2>
-<p>每篇文章可以放在自己的資料夾裡：</p>
-<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[
-<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
-<h2>建議寫法</h2>
-<p>每篇文章可以放在自己的資料夾裡：</p>
-<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
-]]></content>
-    <category term="Notes"/>
-    <published>2026-07-06T00:00:00.000Z</published>
-  </entry>
-  <entry>
     <title type="text">Markdown 範例</title>
     <id>https://WJH910529.github.io/notes/markdown-demo/</id>
     <link href="https://WJH910529.github.io/notes/markdown-demo/"/>
-    <updated>2026-07-07T16:50:50.539Z</updated>
+    <updated>2026-07-07T17:06:35.251Z</updated>
     <summary type="html"><![CDATA[
 <p>這篇示範一些常用 Markdown 寫法。</p>
 <h2>清單</h2>
@@ -255,10 +227,31 @@
     <published>2026-07-06T00:00:00.000Z</published>
   </entry>
   <entry>
+    <title type="text">第一篇筆記</title>
+    <id>https://WJH910529.github.io/notes/first-note/</id>
+    <link href="https://WJH910529.github.io/notes/first-note/"/>
+    <updated>2026-07-07T17:06:35.256Z</updated>
+    <summary type="html"><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[
+<p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
+<h2>建議寫法</h2>
+<p>每篇文章可以放在自己的資料夾裡：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>src/notes/my-new-note/README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>文章最上面的 `</p>
+]]></content>
+    <category term="Notes"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+  </entry>
+  <entry>
     <title type="text">WJH Blog</title>
     <id>https://WJH910529.github.io/projects/wjh-blog/</id>
     <link href="https://WJH910529.github.io/projects/wjh-blog/"/>
-    <updated>2026-07-07T16:50:50.547Z</updated>
+    <updated>2026-07-07T17:06:35.266Z</updated>
     <summary type="html"><![CDATA[
 <p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
 <h2>技術</h2>
