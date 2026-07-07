@@ -3,18 +3,64 @@
   <id>https://WJH910529.github.io/</id>
   <title>WJH Blog</title>
   <subtitle>Notes, projects, and learning records.</subtitle>
-  <updated>2026-07-07T02:49:31.705Z</updated>
+  <updated>2026-07-07T16:33:28.833Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://WJH910529.github.io/atom.xml"/>
   <link rel="alternate" href="https://WJH910529.github.io/"/>
-  <category term="Learning Log"/>
   <category term="Notes"/>
+  <category term="Learning Log"/>
   <category term="Projects"/>
+  <entry>
+    <title type="text">00. 開始學習 xv6-riscv</title>
+    <id>https://WJH910529.github.io/notes/xv6-riscv/00-introduction/</id>
+    <link href="https://WJH910529.github.io/notes/xv6-riscv/00-introduction/"/>
+    <updated>2026-07-07T16:33:28.835Z</updated>
+    <summary type="html"><![CDATA[
+<p>這篇是 xv6-riscv 學習系列的起點。</p>
+<p>我想透過 xv6-riscv 重新整理作業系統的基礎觀念，並把閱讀原始碼、完成 lab、遇到的問題與解法記錄下來。</p>
+<h2>為什麼學 xv6</h2>
+<p>xv6 的程式碼規模相對小，卻保留了作業系統的重要概念。比起只看課本，直接閱讀 xv6 的程式碼可以更具體地理解核心功能是怎麼實作出來的。</p>
+<h2>目前想理解的問題</h2>
+<ul>
+<li>作業系統是怎麼從開機流程進入 kernel 的？</li>
+<li>process 是怎麼被建立、切換與排程的？</li>
+<li>virtual memory 和 page table 實際上怎麼運作？</li>
+<li>system call 如何從 user mode 進入 kernel mode？</li>
+<li>file system 如何把資料組織在磁碟上？</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<p>這篇是 xv6-riscv 學習系列的起點。</p>
+<p>我想透過 xv6-riscv 重新整理作業系統的基礎觀念，並把閱讀原始碼、完成 lab、遇到的問題與解法記錄下來。</p>
+<h2>為什麼學 xv6</h2>
+<p>xv6 的程式碼規模相對小，卻保留了作業系統的重要概念。比起只看課本，直接閱讀 xv6 的程式碼可以更具體地理解核心功能是怎麼實作出來的。</p>
+<h2>目前想理解的問題</h2>
+<ul>
+<li>作業系統是怎麼從開機流程進入 kernel 的？</li>
+<li>process 是怎麼被建立、切換與排程的？</li>
+<li>virtual memory 和 page table 實際上怎麼運作？</li>
+<li>system call 如何從 user mode 進入 kernel mode？</li>
+<li>file system 如何把資料組織在磁碟上？</li>
+</ul>
+<h2>後續筆記格式</h2>
+<p>之後每篇筆記大概會用這個格式：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>主題</span></span>
+<span class="line"><span>我想解決的問題</span></span>
+<span class="line"><span>閱讀到的程式碼</span></span>
+<span class="line"><span>關鍵觀念</span></span>
+<span class="line"><span>實作或 lab 紀錄</span></span>
+<span class="line"><span>遇到的錯誤與解法</span></span>
+<span class="line"><span>心得</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>下一步</h2>
+<p>接下來會先整理 xv6-riscv 的環境、專案結構與啟動流程。</p>
+]]></content>
+    <category term="Notes"/>
+    <published>2026-07-08T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">建立 WJH Blog</title>
     <id>https://WJH910529.github.io/learning-log/2026-07-06-start/</id>
     <link href="https://WJH910529.github.io/learning-log/2026-07-06-start/"/>
-    <updated>2026-07-07T02:49:31.718Z</updated>
+    <updated>2026-07-07T16:33:28.842Z</updated>
     <summary type="html"><![CDATA[
 <p>今天先把 VuePress Theme Hope 專案跑起來，並把原本的內容清成自己的 blog 骨架。</p>
 <h2>做了什麼</h2>
@@ -55,7 +101,7 @@
     <title type="text">第一篇筆記</title>
     <id>https://WJH910529.github.io/notes/first-note/</id>
     <link href="https://WJH910529.github.io/notes/first-note/"/>
-    <updated>2026-07-07T02:49:31.746Z</updated>
+    <updated>2026-07-07T16:33:28.844Z</updated>
     <summary type="html"><![CDATA[
 <p>這是一篇範例文章。你之後新增文章時，可以複製這個資料夾的格式。</p>
 <h2>建議寫法</h2>
@@ -76,7 +122,7 @@
     <title type="text">Markdown 範例</title>
     <id>https://WJH910529.github.io/notes/markdown-demo/</id>
     <link href="https://WJH910529.github.io/notes/markdown-demo/"/>
-    <updated>2026-07-07T02:49:31.771Z</updated>
+    <updated>2026-07-07T16:33:28.850Z</updated>
     <summary type="html"><![CDATA[
 <p>這篇示範一些常用 Markdown 寫法。</p>
 <h2>清單</h2>
@@ -122,7 +168,7 @@
     <title type="text">WJH Blog</title>
     <id>https://WJH910529.github.io/projects/wjh-blog/</id>
     <link href="https://WJH910529.github.io/projects/wjh-blog/"/>
-    <updated>2026-07-07T02:49:31.802Z</updated>
+    <updated>2026-07-07T16:33:28.855Z</updated>
     <summary type="html"><![CDATA[
 <p>這是一個使用 VuePress 和 vuepress-theme-hope 建立的靜態部落格。</p>
 <h2>技術</h2>

@@ -6,6 +6,18 @@
   "description": "Notes, projects, and learning records.",
   "items": [
     {
+      "title": "00. 開始學習 xv6-riscv",
+      "url": "https://WJH910529.github.io/notes/xv6-riscv/00-introduction/",
+      "id": "https://WJH910529.github.io/notes/xv6-riscv/00-introduction/",
+      "summary": "00. 開始學習 xv6-riscv 這篇是 xv6-riscv 學習系列的起點。 我想透過 xv6-riscv 重新整理作業系統的基礎觀念，並把閱讀原始碼、完成 lab、遇到的問題與解法記錄下來。 為什麼學 xv6 xv6 的程式碼規模相對小，卻保留了作業系統的重要概念。比起只看課本，直接閱讀 xv6 的程式碼可以更具體地理解核心功能是怎麼實作出來的...",
+      "content_html": "\n<p>這篇是 xv6-riscv 學習系列的起點。</p>\n<p>我想透過 xv6-riscv 重新整理作業系統的基礎觀念，並把閱讀原始碼、完成 lab、遇到的問題與解法記錄下來。</p>\n<h2>為什麼學 xv6</h2>\n<p>xv6 的程式碼規模相對小，卻保留了作業系統的重要概念。比起只看課本，直接閱讀 xv6 的程式碼可以更具體地理解核心功能是怎麼實作出來的。</p>\n<h2>目前想理解的問題</h2>\n<ul>\n<li>作業系統是怎麼從開機流程進入 kernel 的？</li>\n<li>process 是怎麼被建立、切換與排程的？</li>\n<li>virtual memory 和 page table 實際上怎麼運作？</li>\n<li>system call 如何從 user mode 進入 kernel mode？</li>\n<li>file system 如何把資料組織在磁碟上？</li>\n</ul>\n<h2>後續筆記格式</h2>\n<p>之後每篇筆記大概會用這個格式：</p>\n<div class=\"language-text line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"text\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-text\"><span class=\"line\"><span>主題</span></span>\n<span class=\"line\"><span>我想解決的問題</span></span>\n<span class=\"line\"><span>閱讀到的程式碼</span></span>\n<span class=\"line\"><span>關鍵觀念</span></span>\n<span class=\"line\"><span>實作或 lab 紀錄</span></span>\n<span class=\"line\"><span>遇到的錯誤與解法</span></span>\n<span class=\"line\"><span>心得</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2>下一步</h2>\n<p>接下來會先整理 xv6-riscv 的環境、專案結構與啟動流程。</p>\n",
+      "date_published": "2026-07-08T00:00:00.000Z",
+      "authors": [],
+      "tags": [
+        "Notes"
+      ]
+    },
+    {
       "title": "建立 WJH Blog",
       "url": "https://WJH910529.github.io/learning-log/2026-07-06-start/",
       "id": "https://WJH910529.github.io/learning-log/2026-07-06-start/",
