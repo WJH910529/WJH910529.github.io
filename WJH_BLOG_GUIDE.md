@@ -295,6 +295,39 @@ git push
 corepack pnpm run deploy
 ```
 
+## 避免電腦變卡
+
+平常只是修改文章時，不需要執行：
+
+```powershell
+corepack pnpm run dev
+```
+
+`dev` 是本機預覽用的開發伺服器，會持續監看檔案變更，所以它會常駐並吃一些電腦資源。
+
+只有在你想要發布前先用本機網址預覽網站時，才需要執行：
+
+```powershell
+corepack pnpm run dev
+```
+
+用完後，在終端機按：
+
+```text
+Ctrl + C
+```
+
+就可以停止本機開發伺服器。
+
+如果只是正常更新文章並發布到 GitHub Pages，照這組就好：
+
+```powershell
+git add -A
+git commit -m "Update blog"
+git push
+corepack pnpm run deploy
+```
+
 ## 如果沒有東西可以 commit
 
 如果執行：
