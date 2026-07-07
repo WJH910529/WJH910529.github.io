@@ -9,6 +9,15 @@ export default sidebar([
     prefix: "/notes/",
     children: [
       "",
+      {
+        text: "xv6-riscv",
+        collapsible: true,
+        prefix: "xv6-riscv/",
+        children: [
+          "",
+          "00-introduction/",
+        ],
+      },
       "first-note/",
       "markdown-demo/",
     ],
