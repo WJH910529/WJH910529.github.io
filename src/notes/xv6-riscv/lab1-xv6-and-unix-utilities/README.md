@@ -295,14 +295,122 @@ user/find.c
 - 不要遞迴進入 `.` 和 `..`。
 - 字串比較要用 `strcmp()`，不能用 `==`。
 
-### 我的進度
+### 我的解法
 
-這題目前先待補。之後補上時，重點會是整理：
+```c
+#include "kernel/types.h"
+#include "kernel/stat.h"
+#include "user/user.h"
+#include "kernel/fs.h"
 
-- 如何讀取 directory entry。
-- 如何組出下一層路徑。
-- 如何判斷目標檔名。
-- 如何避免遞迴進入 `.` 和 `..`。
+/*
+find(path, target_name) quick review:
+
+1) open(path) + fstat(fd, &st):
+   - fstat is for an already-open fd.
+   - Used to determine what "current path" is (T_DIR/T_FILE/T_DEVICE).
+
+2) If current path is a directory (T_DIR):
+   - read each dirent from fd
+   - build child path into buf: "<path>/<entry>"
+   - stat(buf, &st) to inspect each child entry type
+     (stat is for a path string, not an fd)
+
+3) For each child:
+   - skip "." and ".." to avoid infinite recursion
+   - if child is T_DIR: recurse find(buf, target_name)
+   - if child is T_FILE and name matches: print full path
+
+4) Close fd before return in all paths.
+*/
+
+void
+find(char *path, char *target_name)
+{
+  char buf[512], *p;
+  int fd;
+  struct dirent de;
+  struct stat st;
+
+  if((fd = open(path, 0)) < 0){
+    fprintf(2, "find: cannot open %s\n", path);
+    return;
+  }
+
+  if(fstat(fd, &st) < 0){
+    fprintf(2, "find: cannot stat %s\n", path);
+    close(fd);
+    return;
+  }
+
+  switch(st.type){
+  case T_DEVICE:
+  case T_FILE:
+    break;
+
+  case T_DIR:
+    if(strlen(path) + 1 + DIRSIZ + 1 > sizeof buf){
+      printf("find: path too long\n");
+      break;
+    }
+    strcpy(buf, path);
+    p = buf+strlen(buf);
+    *p++ = '/';
+    while(read(fd, &de, sizeof(de)) == sizeof(de)){
+      if(de.inum == 0)
+        continue;
+      memmove(p, de.name, DIRSIZ);
+      p[DIRSIZ] = 0;
+      if(stat(buf, &st) < 0){
+        printf("find: cannot stat %s\n", buf);
+        continue;
+      }
+
+      if(strcmp(de.name, ".") != 0 && strcmp(de.name, "..") != 0){
+        if(st.type == T_DIR)
+          find(buf, target_name);
+        else if(st.type == T_FILE)
+          if(strcmp(de.name, target_name) == 0)
+            printf("%s\n", buf);
+      }
+    }
+    break;
+  }
+  close(fd);
+}
+
+int
+main(int argc, char *argv[])
+{
+  if(argc == 3){
+    find(argv[1], argv[2]);
+    exit(0);
+  }
+
+  printf("Usage: find <path> <target_name>\n");
+  exit(0);
+}
+```
+
+### 解法說明
+
+這題的核心是「走訪目錄樹」：
+
+- `open(path, 0)` 打開目前路徑。
+- `fstat(fd, &st)` 判斷目前打開的 fd 是 `T_DIR`、`T_FILE` 還是 `T_DEVICE`。
+- 如果目前是目錄，就用 `read(fd, &de, sizeof(de))` 逐一讀出 `struct dirent`。
+- 把目前路徑和目錄項目組成下一層路徑：`<path>/<entry>`。
+- 用 `stat(buf, &st)` 判斷子項目是檔案還是目錄。
+- 如果是目錄，就遞迴呼叫 `find(buf, target_name)`。
+- 如果是檔案，而且 `strcmp(de.name, target_name) == 0`，就印出完整路徑。
+
+這裡有幾個重要細節：
+
+- `fstat()` 是用在已經打開的 file descriptor。
+- `stat()` 是用在路徑字串。
+- 一定要跳過 `.` 和 `..`，不然遞迴會一直繞回自己或父目錄。
+- `de.name` 是字元陣列，字串比較要用 `strcmp()`，不能用 `==`。
+- 函式結束前要 `close(fd)`，避免 file descriptor 沒有釋放。
 
 ## xargs
 
