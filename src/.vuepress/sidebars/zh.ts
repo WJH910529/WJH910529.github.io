@@ -17,6 +17,7 @@ export default sidebar([
           "",
           "00-introduction/",
           "lab1-xv6-and-unix-utilities/",
+          "lab2-system-calls/",
         ],
       },
       "first-note/",
