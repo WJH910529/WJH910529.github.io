@@ -11,6 +11,7 @@ timeline: false
 
 範例文章：
 
+- [0x10 韌體面試問題集](./0x10-firmware-interview/)
 - [第一篇筆記](./first-note/)
 - [Markdown 範例](./markdown-demo/)
 
