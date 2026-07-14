@@ -61,11 +61,16 @@ int main(void)
         };
         int (*a)[10] = rows;
 
+        printf("(*a)[0] is %d\n", (*a)[0]);
+        printf("*(*a + 1) is %d\n", *(*a + 1));
+        printf("*(*(a + 1)) is %d\n", *(*(a + 1)));
+        printf("(*(a + 1))[1] is %d\n", (*(a + 1))[1]);
         printf("(f) pointer to array: first row %d..%d\n",
                (*a)[0], (*a)[9]);
         ++a;
         printf("    after ++a: second row %d..%d\n",
                (*a)[0], (*a)[9]);
+
     }
 
     {

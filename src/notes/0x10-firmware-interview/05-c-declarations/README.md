@@ -91,6 +91,8 @@ int (*a)[10];
 
 這個型別也保留了「每列剛好 10 個元素」的資訊，傳遞固定欄數的二維陣列時很有用。
 
+可以把 `int (*a)[10]` 想成「a 指向一整排 10 個 int」。因此 `a + 1` 是移到下一排；但 `*a + 1` 是先進到目前這一排，再移到同一排的下一個元素。
+
 ### Function pointer
 
 函式名稱在多數運算式中會轉成函式指標，因此可以寫：
@@ -188,6 +190,10 @@ int main(void)
         };
         int (*a)[10] = rows;
 
+        printf("(*a)[0] is %d\n", (*a)[0]);
+        printf("*(*a + 1) is %d\n", *(*a + 1));
+        printf("*(*(a + 1)) is %d\n", *(*(a + 1)));
+        printf("(*(a + 1))[1] is %d\n", (*(a + 1))[1]);
         printf("(f) pointer to array: first row %d..%d\n",
                (*a)[0], (*a)[9]);
         ++a;
@@ -228,6 +234,10 @@ gcc -std=c11 -Wall -Wextra -pedantic example.c -o example.exe
 (c) pointer to pointer: 30
 (d) array of integers: a[0]=0, a[9]=9
 (e) array of pointers: 41, 51, 61
+(*a)[0] is 1
+*(*a + 1) is 2
+*(*(a + 1)) is 11
+(*(a + 1))[1] is 12
 (f) pointer to array: first row 1..10
     after ++a: second row 11..20
 (g) function pointer: twice(7)=14
@@ -253,6 +263,17 @@ gcc -std=c11 -Wall -Wextra -pedantic example.c -o example.exe
 ### `int (*a)[10]` 的結果
 
 一開始 `a` 指向 `rows[0]`，所以 `(*a)[0]` 到 `(*a)[9]` 是 `1` 到 `10`。執行 `++a` 後，指標跨過完整的 10 個 `int`，改指向 `rows[1]`，因此讀到 `11` 到 `20`。
+
+這裡最容易混淆的是 `a + 1` 和 `*a + 1`：
+
+```c
+(*a)[0]          /* rows[0][0]，目前這一列的第 0 個元素，結果是 1 */
+*(*a + 1)        /* rows[0][1]，目前這一列往後一個 int，結果是 2 */
+*(*(a + 1))      /* rows[1][0]，下一列的第 0 個元素，結果是 11 */
+(*(a + 1))[1]    /* rows[1][1]，下一列的第 1 個元素，結果是 12 */
+```
+
+換句話說，`a` 的單位是「一列」，`*a` 進入那一列之後，才會變成以 `int` 為單位移動。這也是為什麼 `++a` 會從 `rows[0]` 跳到 `rows[1]`，而不是從 `rows[0][0]` 跳到 `rows[0][1]`。
 
 ### 函式指標的結果
 
